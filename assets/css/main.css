@@ -146,7 +146,6 @@ body {
     right: 0;
     text-align: right;
     top: 0;
-    vertical-align: middle;
     width: 7rem; }
     #menu .close:before {
       -moz-osx-font-smoothing: grayscale;
@@ -215,5 +214,17 @@ body.is-menu-visible #menu {
     clear: both;
     display: table;
   }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#0b7dda;
+    color: white;
+    text-align: center;
+    height: 4em;
+ }
+
 
 
